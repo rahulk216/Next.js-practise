@@ -1,3 +1,4 @@
+import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
@@ -6,10 +7,8 @@ import Footer from '../components/usercomponents/Footer';
 import Layout from '../components/usercomponents/Layout';
 import Landing from './Landing';
 
-export default function Home() {
-	return (
-		<Landing />
-	);
+export default function Home(props) {
+	return <Landing />;
 }
 
 Home.getLayout = function getLayout(page) {

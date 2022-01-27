@@ -27,9 +27,18 @@ const Header = () => {
 						</div>
 						<div className={styles.cont}>
 							<div className={styles.flexc}>
-								<Link className={styles.menubtn} href='/'> Home</Link>
-								<Link className={styles.menubtn} href=''> About</Link>
-								<Link className={styles.menubtn} href=''> Products</Link>
+								<Link className={styles.menubtn} href='/'>
+									
+									Home
+								</Link>
+								<Link className={styles.menubtn} href=''>
+									
+									About
+								</Link>
+								<Link className={styles.menubtn} href=''>
+									
+									Products
+								</Link>
 								<Link href='/contact'>Contact</Link>
 							</div>
 						</div>
